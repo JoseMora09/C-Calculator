@@ -19,6 +19,10 @@ namespace Calculator
             Console.Write("Enter a operand <+, -, *, />\n");
             operand = Console.ReadLine();
 
+            Console.Write("Enter second number-"\n);
+            number2 = Convert.ToInt32(Console.ReadLine());
+
+
 
 
 
