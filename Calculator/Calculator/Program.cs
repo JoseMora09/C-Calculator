@@ -6,7 +6,15 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Jose's C# Calculator\n\n\n");
+
+            ///Variables to store values
+            float number1, number2, answer;
+            string operand;
+
+
+
+
         }
     }
 }
