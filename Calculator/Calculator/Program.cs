@@ -12,6 +12,10 @@ namespace Calculator
             float number1, number2, answer;
             string operand;
 
+            ///User inputs the values
+            Console.Write("Enter first number-");
+            number1 = Convert.ToInt32(Console.ReadLine());
+
 
 
 
