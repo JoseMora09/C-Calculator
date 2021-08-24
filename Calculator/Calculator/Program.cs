@@ -22,6 +22,28 @@ namespace Calculator
             Console.Write("Enter second number-"\n);
             number2 = Convert.ToInt32(Console.ReadLine());
 
+            ///User decides on which math output to be used
+            
+            switch(operand)
+            {
+                case "+":
+                    answer = number1 + number2
+                        break;
+
+                case "-":
+                    answer = number1 - number2
+                        break;
+
+                case "*":
+                    answer = number1 * number2
+                        break;
+
+                case "/":
+                    answer = number1 / number2
+                        break;
+
+            }
+
 
 
 
